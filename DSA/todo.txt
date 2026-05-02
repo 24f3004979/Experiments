@@ -1,0 +1,10 @@
+# Target : 23/4/2026
+
+Must Do listing
+1. Understand mst krushkal, and those 3 algorithm of week 5
+2. Solving week 5 and week 6 PPA at any cost
+3. Solving week 4, 5, 6, 7 maths at top grinding sped and documentation with regour
+  Requirements and slots allotment
+    + Morning slot 4 am to 10 am 
+      Solving remainin of 4th week, and then spirinting for week 5 solving with timer 2 min for short and 5 for big points problem and understanding their solving nature,
+    + App dev lecture blast week 1 to week 4 covering with practive papres solving
