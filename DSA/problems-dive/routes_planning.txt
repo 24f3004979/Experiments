@@ -1,0 +1,15 @@
+Using prims algorithm for the routes finding
+
+       get any startpoint [ could be seted with making weight comparisions ]
+       
+       Initialization
+        visited status
+        min_heap = [(0, start_node)] <- Making simple heap for the nodes visiting queue
+        
+       Iterating with exhausting the min_heap
+           geting the next element with heapq.pop() <- Minimum next element
+           checking visiting status
+           Exploring given nodes neighbour into the list
+       If length != len(graph):
+                not a valid path : Cycle exists
+        other wise path found
