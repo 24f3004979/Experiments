@@ -1,10 +1,12 @@
-def pattern(size):
-    
-    n = 1
-    for row in range(size):
-        s = "*" * n
-        print(s)
-        n += 1
 
-i = int(input("Enter size for the star pattern"))
-pattern(i)
+def pattern(size):
+    number = 1
+    for _ in range(size):
+        string = '*' * number
+        number += 1
+        number = number ** 2
+        print(string)
+
+i = int(input("Enter Size for star :"))
+pattern(i) 
+
