@@ -1,5 +1,3 @@
-# 🚀 Quick Exam Refresher (2-Min Read)
-
 A concise summary of all Data Structures and Algorithms implemented in this repo.
 
 ## 1. Shortest Path Algorithms (SSSP & APSP)
@@ -39,6 +37,3 @@ A concise summary of all Data Structures and Algorithms implemented in this repo
 *   **Route Planning:** Use Prim's or Dijkstra's.
 *   **Cycle Detection:** Topological sort (if not all nodes visited) or Bellman-Ford (for negative cycles).
 *   **Path Reconstruction:** Storing the "predecessor" during relaxation.
-
----
-**Exam Strategy:** Focus on *when* to use which (e.g., Bellman-Ford vs. Dijkstra). Good luck! 🎯
