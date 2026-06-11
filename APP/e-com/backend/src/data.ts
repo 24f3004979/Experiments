@@ -1,44 +1,28 @@
 export interface Product {
   id: number;
-  title: string;
+  ProductName: string;
   price: number;
-  description: string;
-  category: string;
   image: string;
 }
 
 export const mockProducts: Product[] = [
   {
     id: 1,
-    title: "Minimalist Wireless Headphones",
+    ProductName: "Laptop",
     price: 129.99,
-    description: "High-fidelity sound engineered with active noise cancellation and 40-hour battery stamina.",
-    category: "electronics",
-    image: "https://unsplash.com"
+    image: "/images/dark.jpg"
   },
   {
     id: 2,
-    title: "Ergonomic Mechanical Keyboard",
+    ProductName: "Laptop Pro Max",
     price: 89.50,
-    description: "Hot-swappable tactile linear switches with customizable RGB backlighting maps.",
-    category: "electronics",
-    image: "https://unsplash.com"
+    image: "/images/darker.jpg"
   },
   {
     id: 3,
-    title: "Waterproof Commuter Backpack",
+    ProductName: "RR CAR",
     price: 59.00,
-    description: "Durable ballistic nylon weave featuring a dedicated padded 16-inch laptop pocket layout.",
-    category: "accessories",
-    image: "https://unsplash.com"
+    image: "/images/gaddi.jpg"
   },
-  {
-    id: 4,
-    title: "Stainless Steel Smart Flask",
-    price: 34.95,
-    description: "Vacuum insulated travel container displaying real-time liquid temperature metrics.",
-    category: "accessories",
-    image: "https://unsplash.com"
-  }
 ];
 

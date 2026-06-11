@@ -1,16 +1,18 @@
 import React from 'react';
-import logo from '../assets/logo.png'
+import logo from '../assets/logo.svg'
 
 export default function Header(): React.JSX.Element {
   return (
-    < header >
-      <img style={styles.img} src={logo} />
-      <nav style={styles.nav}>
-        <a styles={styles.link} >HOME</a>
-        <a>ORDERS</a>
-        <a>PROFILE</a>
-      </nav>
-    </header>
+    <div id='navigation'>
+      < header >
+        <nav style={styles.nav}>
+          <img style={styles.img} src={logo} />
+          <a>HOME</a>
+          <a>ORDERS</a>
+          <a>USER</a>
+        </nav>
+      </header>
+    </div>
   );
 }
 
@@ -21,16 +23,24 @@ const styles = {
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: '20px 40px',
-    backgroundColor: '#f8f9fa',
+    backgroundColor: 'blue',
     borderBottom: '1px solid #ddd',
   },
   img: {
-    width: '5rem',
-    height: '4rem'
+    width: '3rem',
+    height: '3rem',
+    borderRadius: '5px'
   },
   nav: {
     display: 'flex',
     gap: '20px',
+    backgroundColor: 'hsl(0,0%, 10%)',
+    height: '4rem',
+    width: '20rem',
+    justifyContent: 'center',
+    alignItems: 'center',
+    color: 'white',
+    borderRadius: '10px'
   },
   link: {
     textDecoration: 'none',
